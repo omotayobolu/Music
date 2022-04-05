@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/18e5668078.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="simple-lightbox.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home of music</title>
+  </head>
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Music</h1>
+        <ul class="nav">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!---Showcase-->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>Music is the strongest form of magic</h1>
+          <p>
+            Let music flow in your heart and enrich your soul. Let the music
+            speak! Life is a song, love is the music. Music is a way to express
+            yourself and your feelings. Music is the language of the spirit. It
+            opens the secret of life bringing peace, abolishing strife.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img
+          src="that's-how-your-favourite-song-started-removebg-preview.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!--Overlay Text-->
+    <section class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner">
+          <h3>Loud & Clear</h3>
+          <h2>People Aren't Hearing All The Music</h2>
+          <p>
+            Music touches us emotionally, where words alone can't. Where words
+            fail, music speaks. Music is the universal language of mankind.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Gallery-->
+    <section class="section-c">
+      <div class="gallery">
+        <img src="pexels-jessica-lynn-lewis-1010519.jpg" alt="" />
+        <img
+          src="full-length-of-a-young-lady-in-a-black-dress-leaning-on-her-double-bass.jpeg"
+          alt=""
+        />
+        <img
+          src="acoustic-guitar-chair-close-up-brown-guitar-black-wall.jpg"
+          alt=""
+        />
+        <img src="pexels-snapwire-6966.jpg" alt="" />
+        <img src="musical-keyboard-on-a-white-background.jpeg" alt="" />
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Contact Me</h2>
+          <a href="http://twitter.com/omotayo__bolu?s=09">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://www.facebook.com/omotayo.bolu.1">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://github.com/omotayobolu">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsium dolor.</a></li>
+            <li><a href="#">Lorem ipsium dolor.</a></li>
+            <li><a href="#">Lorem ipsium dolor.</a></li>
+            <li><a href="#">Lorem ipsium dolor.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>Input your email if interested in our weekly contents.</p>
+          <form name="email-form" method="POST" data-netlify="true">
+            <div class="email-form">
+              <span class="form-control-wrap">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="25"
+                  class="form-control"
+                  placeholder="E-mail"
+                />
+              </span>
+              <button type="submit" class="form-control-submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="simple-lightbox.min.js"></script>
+
+    <script>
+      $(function () {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
