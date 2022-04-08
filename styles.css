@@ -292,6 +292,14 @@ img {
     margin: auto;
   }
 
+  .section-b {
+    height: 300px;
+  }
+
+  .section-b-inner p {
+    display: none;
+  }
+
   .section-b-inner h2 {
     font-size: 3.5rem;
   }
